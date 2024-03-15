@@ -1,0 +1,25 @@
+
+img {
+    width: 300px;
+    display: block;
+    margin: auto;
+}
+
+button {
+    width: 280px;
+    height: 30px;
+    display: block;
+    margin: auto;
+    color: grey;
+    border: 3px dashed grey;
+    cursor: pointer;
+    font-weight: 600;
+    
+}
+
+button:hover {
+    background-color: rgb(254, 214, 67);
+    
+    
+}
+

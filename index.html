@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+		content="width=device-width, initial-scale=1.0">
+	<title>EIS</title>
+	<link rel="icon" href="icon_1.png" sizes="16x16" type="image/png">
+	<link rel="stylesheet" type="text/css" href="./style.css">
+	
+</head>
+
+<body onload="onloadDateCalc()">
+	
+	<div class="container">
+		<input id="searchbar"
+			onkeyup="search_animal()"
+			type="text" name="search"
+			placeholder="Search...">
+
+
+		<ul id='list'>
+
+				<li class="vehicles">	<table><tr><td> 1201 - Asulia </td><td>	Concrete Pump	</td><td>	CP-01	</td><td>SANY</td><td><button
+				onclick="window.location.href='undercons.html'">Details</button></td></tr></table>
+				<li class="vehicles">	<table><tr><td>	1201 - Asulia	</td><td>	Concrete Pump	</td><td>	CP-02	</td><td>SANY</td><td><button onclick="window.location.href='undercons.html'">Details</button></td></tr></table>
+				<li class="vehicles">	<table><tr><td>	1201 - Asulia	</td><td>	Concrete Pump	</td><td>	CP-08	</td><td>	SANY	<td><button onclick="window.location.href='undercons.html'">Details</button></td></tr></table>
+				<li class="vehicles">	<table><tr><td>	1201 - Asulia	</td><td>	Concrete Pump	</td><td>	CP-18	</td><td>	SANY	<td><button onclick="window.location.href='undercons.html'">Details</button></td></tr></table>
+				<li class="vehicles">	<table><tr><td>	1201 - Asulia	</td><td>	Concrete Pump	</td><td>	CP-05	</td><td>	PUTZ	<td><button onclick="window.location.href='undercons.html'">Details</button></td></tr></table>
+				<li class="vehicles">	<table><tr><td>	1201 - Asulia	</td><td>	Concrete Pump	</td><td>	CP-29	</td><td>	SANY	<td><button onclick="window.location.href='undercons.html'">Details</button></td></tr></table>
+				<li class="vehicles">	<table><tr><td>	1201 - Asulia	</td><td>	Concrete Pump	</td><td>	CP-30	</td><td>	SANY	<td><button onclick="window.location.href='undercons.html'">Details</button></td></tr></table>
+				<li class="vehicles">	<table><tr><td>	1201 - Asulia	</td><td>	Pick Up	</td><td>	D-M-A-11-1696	</td><td>	SANY	<td><button onclick="window.location.href='undercons.html'">Details</button></td></tr></table>
+				<li class="vehicles">	<table><tr><td>	1201 - Asulia	</td><td>	Pick Up	</td><td>	D-M-A-11-3576	</td><td>	SANY	<td><button onclick="window.location.href='undercons.html'">Details</button></td></tr></table>
+				<li class="vehicles">	<table><tr><td>	1201 - Asulia	</td><td>	Pick Up	</td><td>	D-M-A-11-3866	</td><td>	SANY	<td><button onclick="window.location.href='undercons.html'">Details</button></td></tr></table>
+				<li class="vehicles">	<table><tr><td>	1201 - Asulia	</td><td>	Pick Up	</td><td>	D-M-A-11-0975	</td><td>	SANY	<td><button onclick="window.location.href='undercons.html'">Details</button></td></tr></table>
+				<li class="vehicles">	<table><tr><td>	1201 - Asulia	</td><td>	Pick Up	</td><td>	D-M-A-11-0976	</td><td>	SANY	<td><button onclick="window.location.href='undercons.html'">Details</button></td></tr></table>
+				<li class="vehicles">	<table><tr><td>	1201 - Asulia	</td><td>	Mixer Truck	</td><td>	D-M-SHA 11-1672	</td><td>	SANY	<td><button onclick="window.location.href='undercons.html'">Details</button></td></tr></table>
+				<li class="vehicles">	<table><tr><td>	1201 - Asulia	</td><td>	Mixer Truck	</td><td>	D-M-SHA 11-1673	</td><td>	SANY	<td><button onclick="window.location.href='undercons.html'">Details</button></td></tr></table>
+				<li class="vehicles">	<table><tr><td>	1201 - Asulia	</td><td>	Mixer Truck	</td><td>	D-M-SHA 11-1674	</td><td>	SANY	<td><button onclick="window.location.href='undercons.html'">Details</button></td></tr></table>
+				<li class="vehicles">	<table><tr><td>	1201 - Asulia	</td><td>	Mixer Truck	</td><td>	D-M-SHA 11-1679	</td><td>	SANY	<td><button onclick="window.location.href='undercons.html'">Details</button></td></tr></table>
+				<li class="vehicles">	<table><tr><td>	1201 - Asulia	</td><td>	Mixer Truck	</td><td>	D-M-SHA 11-1681	</td><td>	SANY	<td><button onclick="window.location.href='undercons.html'">Details</button></td></tr></table>
+				<li class="vehicles">	<table><tr><td>	1201 - Asulia	</td><td>	Mixer Truck	</td><td>	D-M-SHA 11-1682	</td><td>	SANY	<td><button onclick="window.location.href='undercons.html'">Details</button></td></tr></table>
+				<li class="vehicles">	<table><tr><td>	1201 - Asulia	</td><td>	Mixer Truck	</td><td>	D-M-SHA 11-1684	</td><td>	SANY	<td><button onclick="window.location.href='undercons.html'">Details</button></td></tr></table>
+				<li class="vehicles">	<table><tr><td>	1201 - Asulia	</td><td>	Mixer Truck	</td><td>	D-M-SHA 13-0079	</td><td>	SANY	<td><button onclick="window.location.href='undercons.html'">Details</button></td></tr></table>
+				<li class="vehicles">	<table><tr><td>	1201 - Asulia	</td><td>	Mixer Truck	</td><td>	D-M-SHA 13-0097	</td><td>	SANY	<td><button onclick="window.location.href='undercons.html'">Details</button></td></tr></table>
+				<li class="vehicles">	<table><tr><td>	1201 - Asulia	</td><td>	Mixer Truck	</td><td>	D-M-SHA 13-0099	</td><td>	SANY	<td><button onclick="window.location.href='undercons.html'">Details</button></td></tr></table>
+				<li class="vehicles">	<table><tr><td>	1201 - Asulia	</td><td>	Mixer Truck	</td><td>	D-M-SHA 13-0100	</td><td>	SANY	<td><button onclick="window.location.href='undercons.html'">Details</button></td></tr></table>
+				<li class="vehicles">	<table><tr><td>	1201 - Asulia	</td><td>	Mixer Truck	</td><td>	D-M-SHA 13-0101	</td><td>	SANY	<td><button onclick="window.location.href='undercons.html'">Details</button></td></tr></table>
+				<li class="vehicles">	<table><tr><td>	1201 - Asulia	</td><td>	Mixer Truck	</td><td>	D-M-SHA 13-0103	</td><td>	SANY	<td><button onclick="window.location.href='undercons.html'">Details</button></td></tr></table>
+				<li class="vehicles">	<table><tr><td>	1201 - Asulia	</td><td>	Mixer Truck	</td><td>	D-M-SHA 13-0104	</td><td>	SANY	<td><button onclick="window.location.href='undercons.html'">Details</button></td></tr></table>
+				<li class="vehicles">	<table><tr><td>	1201 - Asulia	</td><td>	Mixer Truck	</td><td>	D-M-SHA 13-0105	</td><td>	SANY	<td><button onclick="window.location.href='undercons.html'">Details</button></td></tr></table>
+				<li class="vehicles">	<table><tr><td>	1201 - Asulia	</td><td>	Mixer Truck	</td><td>	D-M-SHA 13-0107	</td><td>	SANY	<td><button onclick="window.location.href='undercons.html'">Details</button></td></tr></table>
+				<li class="vehicles">	<table><tr><td>	1201 - Asulia	</td><td>	Mixer Truck	</td><td>	D-M-SHA 13-0108	</td><td>	SANY	<td><button onclick="window.location.href='undercons.html'">Details</button></td></tr></table>
+				<li class="vehicles">	<table><tr><td>	1201 - Asulia	</td><td>	Mixer Truck	</td><td>	D-M-SHA 13-0116	</td><td>	SANY	<td><button onclick="window.location.href='undercons.html'">Details</button></td></tr></table>
+				<li class="vehicles">	<table><tr><td>	1201 - Asulia	</td><td>	Mixer Truck	</td><td>	D-M-SHA 13-0117	</td><td>	SANY	<td><button onclick="window.location.href='undercons.html'">Details</button></td></tr></table>
+				<li class="vehicles">	<table><tr><td>	1201 - Asulia	</td><td>	Boom Pump	</td><td>	BOOM-13	</td><td>	SANY	<td><button onclick="window.location.href='undercons.html'">Details</button></td></tr></table>
+				<li class="vehicles">	<table><tr><td>	1201 - Asulia	</td><td>	Mixer Truck	</td><td>	D-M-SHA 13-0207	</td><td>	SANY	<td><button onclick="window.location.href='undercons.html'">Details</button></td></tr></table>
+				<li class="vehicles">	<table><tr><td>	1201 - Asulia	</td><td>	Mixer Truck	</td><td>	D-M-SHA 13-0208	</td><td>	SANY	<td><button onclick="window.location.href='undercons.html'">Details</button></td></tr></table>
+				<li class="vehicles">	<table><tr><td>	1201 - Asulia	</td><td>	Mixer Truck	</td><td>	D-M-SHA 13-0210	</td><td>	SANY	<td><button onclick="window.location.href='undercons.html'">Details</button></td></tr></table>
+				<li class="vehicles">	<table><tr><td>	1201 - Asulia	</td><td>	Mixer Truck	</td><td>	D-M-SHA 13-0213	</td><td>	SANY	<td><button onclick="window.location.href='undercons.html'">Details</button></td></tr></table>
+				<li class="vehicles">	<table><tr><td>	1201 - Asulia	</td><td>	Mixer Truck	</td><td>	D-M-SHA 13-0214	</td><td>	SANY	<td><button onclick="window.location.href='undercons.html'">Details</button></td></tr></table>
+				<li class="vehicles">	<table><tr><td>	1201 - Asulia	</td><td>	Mixer Truck	</td><td>	D-M-SHA 13-0246	</td><td>	SANY	<td><button onclick="window.location.href='undercons.html'">Details</button></td></tr></table>
+				<li class="vehicles">	<table><tr><td>	1201 - Asulia	</td><td>	Mixer Truck	</td><td>	D-M-SHA 13-0248	</td><td>	SANY	<td><button onclick="window.location.href='undercons.html'">Details</button></td></tr></table>
+				<li class="vehicles">	<table><tr><td>	1201 - Asulia	</td><td>	Mixer Truck	</td><td>	D-M-SHA 13-0249	</td><td>	SANY	<td><button onclick="window.location.href='undercons.html'">Details</button></td></tr></table>
+				<li class="vehicles">	<table><tr><td>	1201 - Asulia	</td><td>	Mixer Truck	</td><td>	D-M-SHA 13-0252	</td><td>	SANY	<td><button onclick="window.location.href='undercons.html'">Details</button></td></tr></table>
+				<li class="vehicles">	<table><tr><td>	1201 - Asulia	</td><td>	Mixer Truck	</td><td>	D-M-SHA 13-0253	</td><td>	SANY	<td><button onclick="window.location.href='undercons.html'">Details</button></td></tr></table>
+				<li class="vehicles">	<table><tr><td>	1201 - Asulia	</td><td>	Mixer Truck	</td><td>	D-M-SHA 13-0254	</td><td>	SANY	<td><button onclick="window.location.href='undercons.html'">Details</button></td></tr></table>
+				<li class="vehicles">	<table><tr><td>	1201 - Asulia	</td><td>	Mixer Truck	</td><td>	D-M-SHA 13-0301	</td><td>	SANY	<td><button onclick="window.location.href='undercons.html'">Details</button></td></tr></table>
+				<li class="vehicles">	<table><tr><td>	1201 - Asulia	</td><td>	Mixer Truck	</td><td>	D-M-SHA 13-0304	</td><td>	SANY	<td><button onclick="window.location.href='undercons.html'">Details</button></td></tr></table>
+				<li class="vehicles">	<table><tr><td>	1201 - Asulia	</td><td>	Mixer Truck	</td><td>	D-M-SHA 13-0306	</td><td>	SANY	<td><button onclick="window.location.href='undercons.html'">Details</button></td></tr></table>
+				<li class="vehicles">	<table><tr><td>	1201 - Asulia	</td><td>	Mixer Truck	</td><td>	D-M-SHA 13-0307	</td><td>	SANY	<td><button onclick="window.location.href='undercons.html'">Details</button></td></tr></table>
+				<li class="vehicles">	<table><tr><td>	1201 - Asulia	</td><td>	Mixer Truck	</td><td>	D-M-SHA 13-0308	</td><td>	SANY	<td><button onclick="window.location.href='undercons.html'">Details</button></td></tr></table>
+				<li class="vehicles">	<table><tr><td>	1201 - Asulia	</td><td>	Mixer Truck	</td><td>	D-M-SHA 13-0309	</td><td>	SANY	<td><button onclick="window.location.href='undercons.html'">Details</button></td></tr></table>
+				<li class="vehicles">	<table><tr><td>	1201 - Asulia	</td><td>	Mixer Truck	</td><td>	D-M-SHA13-0310 	</td><td>	SANY	<td><button onclick="window.location.href='undercons.html'">Details</button></td></tr></table>
+				<li class="vehicles">	<table><tr><td>	1201 - Asulia	</td><td>	Mixer Truck	</td><td>	D-M-SHA13-0436 	</td><td>	SANY	<td><button onclick="window.location.href='undercons.html'">Details</button></td></tr></table>
+				<li class="vehicles">	<table><tr><td>	1201 - Asulia	</td><td>	Mixer Truck	</td><td>	D-M-SHA13-0443 	</td><td>	SANY	<td><button onclick="window.location.href='undercons.html'">Details</button></td></tr></table>
+				<li class="vehicles">	<table><tr><td>	1201 - Asulia	</td><td>	Mixer Truck	</td><td>	D-M-SHA13-0444 	</td><td>	SANY	<td><button onclick="window.location.href='undercons.html'">Details</button></td></tr></table>
+				<li class="vehicles">	<table><tr><td>	1201 - Asulia	</td><td>	Mixer Truck	</td><td>	D-M-SHA13-0446 	</td><td>	SANY	<td><button onclick="window.location.href='undercons.html'">Details</button></td></tr></table>
+				<li class="vehicles">	<table><tr><td>	1201 - Asulia	</td><td>	Mixer Truck	</td><td>	D-M-SHA13-0447 	</td><td>	SANY	<td><button onclick="window.location.href='undercons.html'">Details</button></td></tr></table>
+				<li class="vehicles">	<table><tr><td>	1201 - Asulia	</td><td>	Mixer Truck	</td><td>	D-M-SHA13-0452 	</td><td>	SANY	<td><button onclick="window.location.href='undercons.html'">Details</button></td></tr></table>
+				<li class="vehicles">	<table><tr><td>	1201 - Asulia	</td><td>	Mixer Truck	</td><td>	D-M-SHA13-0455 	</td><td>	SANY	<td><button onclick="window.location.href='undercons.html'">Details</button></td></tr></table>
+				<li class="vehicles">	<table><tr><td>	1201 - Asulia	</td><td>	Mixer Truck	</td><td>	D-M-SHA13-0457 	</td><td>	SANY	<td><button onclick="window.location.href='undercons.html'">Details</button></td></tr></table>
+				<li class="vehicles">	<table><tr><td>	1201 - Asulia	</td><td>	Mixer Truck	</td><td>	D-M-SHA13-0458 	</td><td>	SANY	<td><button onclick="window.location.href='undercons.html'">Details</button></td></tr></table>
+				<li class="vehicles">	<table><tr><td>	1201 - Asulia	</td><td>	Mixer Truck	</td><td>	D-M-SHA13-0462 	</td><td>	SANY	<td><button onclick="window.location.href='undercons.html'">Details</button></td></tr></table>
+				<li class="vehicles">	<table><tr><td>	1201 - Asulia	</td><td>	Mixer Truck	</td><td>	D-M-SHA14-0954 	</td><td>	SANY	<td><button onclick="window.location.href='undercons.html'">Details</button></td></tr></table>
+				<li class="vehicles">	<table><tr><td>	1201 - Asulia	</td><td>	Mixer Truck	</td><td>	D-M-SHA14-0955 	</td><td>	SANY	<td><button onclick="window.location.href='undercons.html'">Details</button></td></tr></table>
+				<li class="vehicles">	<table><tr><td>	1201 - Asulia	</td><td>	Dump Truck	</td><td>	DM-U-11-4290	</td><td>	TATA	<td><button onclick="window.location.href='undercons.html'">Details</button></td></tr></table>
+				<li class="vehicles">	<table><tr><td>	1201 - Asulia	</td><td>	Dump Truck	</td><td>	DM-U-11-4291	</td><td>	TATA	<td><button onclick="window.location.href='undercons.html'">Details</button></td></tr></table>
+				<li class="vehicles">	<table><tr><td>	1201 - Asulia	</td><td>	Dump Truck	</td><td>	DM-U-11-4379	</td><td>	TATA	<td><button onclick="window.location.href='undercons.html'">Details</button></td></tr></table>
+				<li class="vehicles">	<table><tr><td>	1201 - Asulia	</td><td>	Dump Truck	</td><td>	DM-U-11-4380	</td><td>	TATA	<td><button onclick="window.location.href='undercons.html'">Details</button></td></tr></table>
+				<li class="vehicles">	<table><tr><td>	1201 - Asulia	</td><td>	Pick Up	</td><td>	D-M-U-12-0160	</td><td>	EICHER	<td><button onclick="window.location.href='undercons.html'">Details</button></td></tr></table>
+				<li class="vehicles">	<table><tr><td>	1201 - Asulia	</td><td>	Dump Truck	</td><td>	DM-U-12-0305	</td><td>	EICHER	<td><button onclick="window.location.href='undercons.html'">Details</button></td></tr></table>
+				<li class="vehicles">	<table><tr><td>	1201 - Asulia	</td><td>	Pick Up	</td><td>	D-M-U 12-0975	</td><td>	EICHER	<td><button onclick="window.location.href='undercons.html'">Details</button></td></tr></table>
+				<li class="vehicles">	<table><tr><td>	1201 - Asulia	</td><td>	Pick Up	</td><td>	D-M-U 12-0977	</td><td>	EICHER	<td><button onclick="window.location.href='undercons.html'">Details</button></td></tr></table>
+				<li class="vehicles">	<table><tr><td>	1201 - Asulia	</td><td>	Pick Up	</td><td>	D-M-U 12-1078	</td><td>	EICHER	<td><button onclick="window.location.href='undercons.html'">Details</button></td></tr></table>
+				<li class="vehicles">	<table><tr><td>	1201 - Asulia	</td><td>	Pick Up	</td><td>	D-M-U 12-2082	</td><td>	EICHER	<td><button onclick="window.location.href='undercons.html'">Details</button></td></tr></table>
+				<li class="vehicles">	<table><tr><td>	1201 - Asulia	</td><td>	Dump Truck	</td><td>	DM-U-14-2424	</td><td>	EICHER	<td><button onclick="window.location.href='undercons.html'">Details</button></td></tr></table>
+				<li class="vehicles">	<table><tr><td>	1201 - Asulia	</td><td>	Pick Up	</td><td>	DM-U-13-4399	</td><td>	TOYOTA	<td><button onclick="window.location.href='undercons.html'">Details</button></td></tr></table>
+				<li class="vehicles">	<table><tr><td>	1201 - Asulia	</td><td>	Dump Truck	</td><td>	DM-SHA-13-17	</td><td>	EICHER	<td><button onclick="window.location.href='undercons.html'">Details</button></td></tr></table>
+				<li class="vehicles">	<table><tr><td>	1201 - Asulia	</td><td>	Dump Truck	</td><td>	DM-TA-13-690	</td><td>	TATA	<td><button onclick="window.location.href='undercons.html'">Details</button></td></tr></table>
+				<li class="vehicles">	<table><tr><td>	1201 - Asulia	</td><td>	Dump Truck	</td><td>	DM-TA-13-700	</td><td>	TATA	<td><button onclick="window.location.href='undercons.html'">Details</button></td></tr></table>
+				<li class="vehicles">	<table><tr><td>	1201 - Asulia	</td><td>	Dump Truck	</td><td>	DM-TA-13-700	</td><td>	TATA	<td><button onclick="window.location.href='undercons.html'">Details</button></td></tr></table>
+				<li class="vehicles">	<table><tr><td>	1201 - Asulia	</td><td>	Dump Truck	</td><td>	DM-TA-13-700	</td><td>	TATA	<td><button onclick="window.location.href='undercons.html'">Details</button></td></tr></table>
+				<li class="vehicles">	<table><tr><td>	1201 - Asulia	</td><td>	Dump Truck	</td><td>	DM-TA-13-700	</td><td>	TATA	<td><button onclick="window.location.href='undercons.html'">Details</button></td></tr></table>
+				<li class="vehicles">	<table><tr><td>	1201 - Asulia	</td><td>	Dump Truck	</td><td>	DM-TA-13-700	</td><td>	TATA	<td><button onclick="window.location.href='undercons.html'">Details</button></td></tr></table>
+				<li class="vehicles">	<table><tr><td>	1201 - Asulia	</td><td>	Dump Truck	</td><td>	DM-U-12-1553	</td><td>	TATA	<td><button onclick="window.location.href='undercons.html'">Details</button></td></tr></table>
+				<li class="vehicles">	<table><tr><td>	1201 - Asulia	</td><td>	Dump Truck	</td><td>	DM-U-12-1554	</td><td>	TATA	<td><button onclick="window.location.href='undercons.html'">Details</button></td></tr></table>
+				<li class="vehicles">	<table><tr><td>	1201 - Asulia	</td><td>	Dump Truck	</td><td>	DM-U-12-1555	</td><td>	TATA	<td><button onclick="window.location.href='undercons.html'">Details</button></td></tr></table>
+				<li class="vehicles">	<table><tr><td>	1201 - Asulia	</td><td>	Dump Truck	</td><td>	DM-U-12-3133	</td><td>	TATA	<td><button onclick="window.location.href='undercons.html'">Details</button></td></tr></table>
+				<li class="vehicles">	<table><tr><td>	1201 - Asulia	</td><td>	Dump Truck	</td><td>	DM-U-12-3134	</td><td>	TATA	<td><button onclick="window.location.href='undercons.html'">Details</button></td></tr></table>
+				<li class="vehicles">	<table><tr><td>	1201 - Asulia	</td><td>	Dump Truck	</td><td>	DM-U-12-3135	</td><td>	TATA	<td><button onclick="window.location.href='undercons.html'">Details</button></td></tr></table>
+				<li class="vehicles">	<table><tr><td>	1201 - Asulia	</td><td>	Dump Truck	</td><td>	DM-U-12-3136	</td><td>	TATA	<td><button onclick="window.location.href='undercons.html'">Details</button></td></tr></table>
+				<li class="vehicles">	<table><tr><td>	1201 - Asulia	</td><td>	Dump Truck	</td><td>	DM-U-12-4061	</td><td>	TATA	<td><button onclick="window.location.href='undercons.html'">Details</button></td></tr></table>
+				<li class="vehicles">	<table><tr><td>	1201 - Asulia	</td><td>	Dump Truck	</td><td>	DM-U-12-4061	</td><td>	TATA	<td><button onclick="window.location.href='undercons.html'">Details</button></td></tr></table>
+				<li class="vehicles">	<table><tr><td>	1201 - Asulia	</td><td>	Wheel Loader	</td><td>	WL	</td><td>	SANY	<td><button onclick="window.location.href='undercons.html'">Details</button></td></tr></table>
+				<li class="vehicles">	<table><tr><td>	1201 - Asulia	</td><td>	Wheel Loader	</td><td>	WL	</td><td>	SANY	<td><button onclick="window.location.href='undercons.html'">Details</button></td></tr></table>
+				<li class="vehicles">	<table><tr><td>	1201 - Asulia	</td><td>	Excavator	</td><td>	EXC-01	</td><td>	SANY	<td><button onclick="window.location.href='undercons.html'">Details</button></td></tr></table>
+				<li class="vehicles">	<table><tr><td>	1201 - Asulia	</td><td>	Concrete Pump	</td><td>	CP-04	</td><td>	PUTZ	<td><button onclick="window.location.href='undercons.html'">Details</button></td></tr></table>
+				<li class="vehicles">	<table><tr><td>	1201 - Asulia	</td><td>	Concrete Pump	</td><td>	CP-25	</td><td>	PUTZ	<td><button onclick="window.location.href='undercons.html'">Details</button></td></tr></table>
+				<li class="vehicles">	<table><tr><td>	1201 - Asulia	</td><td>	Concrete Pump	</td><td>	CP-26	</td><td>	PUTZ	<td><button onclick="window.location.href='undercons.html'">Details</button></td></tr></table>
+				<li class="vehicles">	<table><tr><td>	1201 - Asulia	</td><td>	Concrete Pump	</td><td>	CP-27	</td><td>	PUTZ	<td><button onclick="window.location.href='undercons.html'">Details</button></td></tr></table>
+				<li class="vehicles">	<table><tr><td>	1201 - Asulia	</td><td>	Concrete Pump	</td><td>	CP-28	</td><td>	PUTZ	<td><button onclick="window.location.href='undercons.html'">Details</button></td></tr></table>
+				<li class="vehicles">	<table><tr><td>	1201 - Asulia	</td><td>	Dump Truck	</td><td>	DM-U-11-6569	</td><td>	TATA<td><button onclick="window.location.href='undercons.html'">Details</button></td></tr></table>
+				<li class="vehicles">	<table><tr><td>	1201 - Asulia	</td><td>	Dump Truck	</td><td>	DM-U-11-6570	</td><td>	TATA<td><button onclick="window.location.href='undercons.html'">Details</button></td></tr></table>
+				<li class="vehicles">	<table><tr><td>	1201 - Asulia	</td><td>	Dump Truck	</td><td>	DM-U-11-6571	</td><td>	TATA<td><button onclick="window.location.href='undercons.html'">Details</button></td></tr></table>
+				<li class="vehicles">	<table><tr><td>	1202 - Vatara	</td><td>	Mixer Truck	</td><td>	D-M-SHA 11-1674	</td><td>	SANY	<td><button onclick="window.location.href='undercons.html'">Details</button></td></tr></table>
+				<li class="vehicles">	<table><tr><td>	1202 - Vatara	</td><td>	Mixer Truck	</td><td>	D-M-SHA 13-0079	</td><td>	SANY	<td><button onclick="window.location.href='undercons.html'">Details</button></td></tr></table>
+				<li class="vehicles">	<table><tr><td>	1202 - Vatara	</td><td>	Mixer Truck	</td><td>	D-M-SHA 13-0213	</td><td>	SANY	<td><button onclick="window.location.href='undercons.html'">Details</button></td></tr></table>
+				<li class="vehicles">	<table><tr><td>	1202 - Vatara	</td><td>	Mixer Truck	</td><td>	D-M-SHA 13-0248	</td><td>	SANY	<td><button onclick="window.location.href='undercons.html'">Details</button></td></tr></table>
+				<li class="vehicles">	<table><tr><td>	1202 - Vatara	</td><td>	Mixer Truck	</td><td>	D-M-SHA 13-0308	</td><td>	SANY	<td><button onclick="window.location.href='undercons.html'">Details</button></td></tr></table>
+				<li class="vehicles">	<table><tr><td>	1202 - Vatara	</td><td>	Dump Truck	</td><td>	DM-U-120305	</td><td>	EICHER	<td><button onclick="window.location.href='undercons.html'">Details</button></td></tr></table>
+				<li class="vehicles">	<table><tr><td>	1202 - Vatara	</td><td>	Dump Truck	</td><td>	DM-TA-13-7000	</td><td>	TATA	<td><button onclick="window.location.href='undercons.html'">Details</button></td></tr></table>
+				<li class="vehicles">	<table><tr><td>	1202 - Vatara	</td><td>	Dump Truck	</td><td>	DM-TA-13-7001	</td><td>	TATA	<td><button onclick="window.location.href='undercons.html'">Details</button></td></tr></table>
+				<li class="vehicles">	<table><tr><td>	1202 - Vatara	</td><td>	Dump Truck	</td><td>	DM-TA-13-7002	</td><td>	TATA	<td><button onclick="window.location.href='undercons.html'">Details</button></td></tr></table>
+				<li class="vehicles">	<table><tr><td>	1202 - Vatara	</td><td>	Wheel Loader	</td><td>	WL	</td><td>	LIUGONG	<td><button onclick="window.location.href='undercons.html'">Details</button></td></tr></table>
+				<li class="vehicles">	<table><tr><td>	1202 - Vatara	</td><td>	Concrete Pump	</td><td>	CP-06	</td><td>	PUTZ	<td><button onclick="window.location.href='undercons.html'">Details</button></td></tr></table>
+				<li class="vehicles">	<table><tr><td>	1202 - Vatara	</td><td>	Concrete Pump	</td><td>	CP-07	</td><td>	SANY	<td><button onclick="window.location.href='undercons.html'">Details</button></td></tr></table>
+				<li class="vehicles">	<table><tr><td>	1202 - Vatara	</td><td>	Concrete Pump	</td><td>	CP-09	</td><td>	SANY	<td><button onclick="window.location.href='undercons.html'">Details</button></td></tr></table>
+				<li class="vehicles">	<table><tr><td>	1202 - Vatara	</td><td>	Concrete Pump	</td><td>	CP-10	</td><td>	SANY	<td><button onclick="window.location.href='undercons.html'">Details</button></td></tr></table>
+				<li class="vehicles">	<table><tr><td>	1202 - Vatara	</td><td>	Covered Van	</td><td>	D-M-MO 51-6968	</td><td>	TATA	<td><button onclick="window.location.href='undercons.html'">Details</button></td></tr></table>
+				<li class="vehicles">	<table><tr><td>	1202 - Vatara	</td><td>	Mixer Truck	</td><td>	D-M-SHA 11-1676	</td><td>	SANY	<td><button onclick="window.location.href='undercons.html'">Details</button></td></tr></table>
+				<li class="vehicles">	<table><tr><td>	1202 - Vatara	</td><td>	Mixer Truck	</td><td>	D-M-SHA 11-1678	</td><td>	SANY	<td><button onclick="window.location.href='undercons.html'">Details</button></td></tr></table>
+				<li class="vehicles">	<table><tr><td>	1202 - Vatara	</td><td>	Mixer Truck	</td><td>	D-M-SHA 11-1680	</td><td>	SANY	<td><button onclick="window.location.href='undercons.html'">Details</button></td></tr></table>
+				<li class="vehicles">	<table><tr><td>	1202 - Vatara	</td><td>	Mixer Truck	</td><td>	D-M-SHA 13-0098	</td><td>	SANY	<td><button onclick="window.location.href='undercons.html'">Details</button></td></tr></table>
+				<li class="vehicles">	<table><tr><td>	1202 - Vatara	</td><td>	Mixer Truck	</td><td>	D-M-SHA13-0109 	</td><td>	SANY	<td><button onclick="window.location.href='undercons.html'">Details</button></td></tr></table>
+				<li class="vehicles">	<table><tr><td>	1202 - Vatara	</td><td>	Mixer Truck	</td><td>	D-M-SHA13-0437 	</td><td>	SANY	<td><button onclick="window.location.href='undercons.html'">Details</button></td></tr></table>
+				<li class="vehicles">	<table><tr><td>	1202 - Vatara	</td><td>	Mixer Truck	</td><td>	D-M-SHA13-0439 	</td><td>	SANY	<td><button onclick="window.location.href='undercons.html'">Details</button></td></tr></table>
+				<li class="vehicles">	<table><tr><td>	1202 - Vatara	</td><td>	Mixer Truck	</td><td>	D-M-SHA13-0440 	</td><td>	SANY	<td><button onclick="window.location.href='undercons.html'">Details</button></td></tr></table>
+				<li class="vehicles">	<table><tr><td>	1202 - Vatara	</td><td>	Mixer Truck	</td><td>	D-M-SHA13-0463 	</td><td>	SANY	<td><button onclick="window.location.href='undercons.html'">Details</button></td></tr></table>
+				<li class="vehicles">	<table><tr><td>	1202 - Vatara	</td><td>	Pick Up	</td><td>	D-M-U 12-0159	</td><td>	SANY	<td><button onclick="window.location.href='undercons.html'">Details</button></td></tr></table>
+				<li class="vehicles">	<table><tr><td>	1202 - Vatara	</td><td>	Pick Up	</td><td>	D-M-U 12-0333	</td><td>	SANY	<td><button onclick="window.location.href='undercons.html'">Details</button></td></tr></table>
+				<li class="vehicles">	<table><tr><td>	1202 - Vatara	</td><td>	Pick Up	</td><td>	D-M-U 12-0976	</td><td>	SANY	<td><button onclick="window.location.href='undercons.html'">Details</button></td></tr></table>
+				<li class="vehicles">	<table><tr><td>	1202 - Vatara	</td><td>	Wheel Loader	</td><td>	WL	</td><td>	CAT	<td><button onclick="window.location.href='undercons.html'">Details</button></td></tr></table>
+				<li class="vehicles">	<table><tr><td>	1202 - Vatara	</td><td>	Mixer Truck	</td><td>	D-M-SHA 13-0251	</td><td>	TATA	<td><button onclick="window.location.href='undercons.html'">Details</button></td></tr></table>
+				<li class="vehicles">	<table><tr><td>	1202 - Vatara	</td><td>	Dump Truck	</td><td>	DM-U-11-4360	</td><td>	TATA	<td><button onclick="window.location.href='undercons.html'">Details</button></td></tr></table>
+				<li class="vehicles">	<table><tr><td>	1203 - Siddhirgonj	</td><td>	Concrete Pump	</td><td>	CP-21	</td><td>	SANY	<td><button onclick="window.location.href='undercons.html'">Details</button></td></tr></table>
+				<li class="vehicles">	<table><tr><td>	1203 - Siddhirgonj	</td><td>	Concrete Pump	</td><td>	CP-23	</td><td>	SANY	<td><button onclick="window.location.href='undercons.html'">Details</button></td></tr></table>
+				<li class="vehicles">	<table><tr><td>	1203 - Siddhirgonj	</td><td>	Mixer Truck	</td><td>	D-M-SHA 11-1675	</td><td>	SANY	<td><button onclick="window.location.href='undercons.html'">Details</button></td></tr></table>
+				<li class="vehicles">	<table><tr><td>	1203 - Siddhirgonj	</td><td>	Mixer Truck	</td><td>	D-M-SHA 11-1685	</td><td>	SANY	<td><button onclick="window.location.href='undercons.html'">Details</button></td></tr></table>
+				<li class="vehicles">	<table><tr><td>	1203 - Siddhirgonj	</td><td>	Mixer Truck	</td><td>	D-M-SHA 11-1686	</td><td>	SANY	<td><button onclick="window.location.href='undercons.html'">Details</button></td></tr></table>
+				<li class="vehicles">	<table><tr><td>	1203 - Siddhirgonj	</td><td>	Mixer Truck	</td><td>	D-M-SHA 13-0069	</td><td>	SANY	<td><button onclick="window.location.href='undercons.html'">Details</button></td></tr></table>
+				<li class="vehicles">	<table><tr><td>	1203 - Siddhirgonj	</td><td>	Mixer Truck	</td><td>	D-M-SHA13-0445 	</td><td>	SANY	<td><button onclick="window.location.href='undercons.html'">Details</button></td></tr></table>
+				<li class="vehicles">	<table><tr><td>	1203 - Siddhirgonj	</td><td>	Mixer Truck	</td><td>	D-M-SHA13-0449 	</td><td>	SANY	<td><button onclick="window.location.href='undercons.html'">Details</button></td></tr></table>
+				<li class="vehicles">	<table><tr><td>	1203 - Siddhirgonj	</td><td>	Mixer Truck	</td><td>	D-M-SHA13-0451 	</td><td>	SANY	<td><button onclick="window.location.href='undercons.html'">Details</button></td></tr></table>
+				<li class="vehicles">	<table><tr><td>	1203 - Siddhirgonj	</td><td>	Mixer Truck	</td><td>	D-M-SHA13-0454 	</td><td>	SANY	<td><button onclick="window.location.href='undercons.html'">Details</button></td></tr></table>
+				<li class="vehicles">	<table><tr><td>	1203 - Siddhirgonj	</td><td>	Pick Up	</td><td>	D-M-U 12-1079	</td><td>	EICHER	<td><button onclick="window.location.href='undercons.html'">Details</button></td></tr></table>
+				<li class="vehicles">	<table><tr><td>	1203 - Siddhirgonj	</td><td>	Pick Up	</td><td>	D-M-U 12-1081	</td><td>	EICHER	<td><button onclick="window.location.href='undercons.html'">Details</button></td></tr></table>
+				<li class="vehicles">	<table><tr><td>	1203 - Siddhirgonj	</td><td>	Wheel Loader	</td><td>	WL	</td><td>	LIUGONG	<td><button onclick="window.location.href='undercons.html'">Details</button></td></tr></table>
+				<li class="vehicles">	<table><tr><td>	1206 - Gazipur	</td><td>	Concrete Pump	</td><td>	CP-20	</td><td>	SANY	<td><button onclick="window.location.href='undercons.html'">Details</button></td></tr></table>
+				<li class="vehicles">	<table><tr><td>	1206 - Gazipur	</td><td>	Concrete Pump	</td><td>	CP-11	</td><td>	PUTZ	<td><button onclick="window.location.href='undercons.html'">Details</button></td></tr></table>
+				<li class="vehicles">	<table><tr><td>	1206 - Gazipur	</td><td>	Crane	</td><td>	CRANE	</td><td>	SANY	<td><button onclick="window.location.href='undercons.html'">Details</button></td></tr></table>
+				<li class="vehicles">	<table><tr><td>	1206 - Gazipur	</td><td>	Mixer Truck	</td><td>	D-M-SHA13-0438 	</td><td>	SANY	<td><button onclick="window.location.href='undercons.html'">Details</button></td></tr></table>
+				<li class="vehicles">	<table><tr><td>	1206 - Gazipur	</td><td>	Mixer Truck	</td><td>	D-M-SHA13-0441 	</td><td>	SANY	<td><button onclick="window.location.href='undercons.html'">Details</button></td></tr></table>
+				<li class="vehicles">	<table><tr><td>	1206 - Gazipur	</td><td>	Mixer Truck	</td><td>	D-M-SHA13-0448 	</td><td>	SANY	<td><button onclick="window.location.href='undercons.html'">Details</button></td></tr></table>
+				<li class="vehicles">	<table><tr><td>	1206 - Gazipur	</td><td>	Mixer Truck	</td><td>	D-M-SHA13-0456 	</td><td>	SANY	<td><button onclick="window.location.href='undercons.html'">Details</button></td></tr></table>
+				<li class="vehicles">	<table><tr><td>	1206 - Gazipur	</td><td>	Mixer Truck	</td><td>	D-M-SHA13-0459 	</td><td>	SANY	<td><button onclick="window.location.href='undercons.html'">Details</button></td></tr></table>
+				<li class="vehicles">	<table><tr><td>	1206 - Gazipur	</td><td>	Mixer Truck	</td><td>	D-M-SHA13-0460 	</td><td>	SANY	<td><button onclick="window.location.href='undercons.html'">Details</button></td></tr></table>
+				<li class="vehicles">	<table><tr><td>	1206 - Gazipur	</td><td>	Mixer Truck	</td><td>	D-M-SHA13-0461 	</td><td>	SANY	<td><button onclick="window.location.href='undercons.html'">Details</button></td></tr></table>
+				<li class="vehicles">	<table><tr><td>	1206 - Gazipur	</td><td>	Pick Up	</td><td>	D-M-U 12-0332	</td><td>	EICHER	<td><button onclick="window.location.href='undercons.html'">Details</button></td></tr></table>
+				<li class="vehicles">	<table><tr><td>	1206 - Gazipur	</td><td>	Pick Up	</td><td>	D-M-U 12-1080	</td><td>	EICHER	<td><button onclick="window.location.href='undercons.html'">Details</button></td></tr></table>
+				<li class="vehicles">	<table><tr><td>	1206 - Gazipur	</td><td>	Dump Truck	</td><td>	DM-SHA-13-1739	</td><td>	TATA	<td><button onclick="window.location.href='undercons.html'">Details</button></td></tr></table>
+				<li class="vehicles">	<table><tr><td>	1206 - Gazipur	</td><td>	Wheel Loader	</td><td>	WL	</td><td>	SANY	<td><button onclick="window.location.href='undercons.html'">Details</button></td></tr></table>
+				<li class="vehicles">	<table><tr><td>	1206 - Gazipur	</td><td>	Wheel Loader	</td><td>	WL	</td><td>	SANY	<td><button onclick="window.location.href='undercons.html'">Details</button></td></tr></table>
+				<li class="vehicles">	<table><tr><td>	1207 - Chattogram	</td><td>	Concrete Pump	</td><td>	CP-12	</td><td>	SANY	<td><button onclick="window.location.href='undercons.html'">Details</button></td></tr></table>
+				<li class="vehicles">	<table><tr><td>	1207 - Chattogram	</td><td>	Concrete Pump	</td><td>	CP-19	</td><td>	SANY	<td><button onclick="window.location.href='undercons.html'">Details</button></td></tr></table>
+				<li class="vehicles">	<table><tr><td>	1207 - Chattogram	</td><td>	Concrete Pump	</td><td>	CP-17	</td><td>	SANY	<td><button onclick="window.location.href='undercons.html'">Details</button></td></tr></table>
+				<li class="vehicles">	<table><tr><td>	1207 - Chattogram	</td><td>	Concrete Pump	</td><td>	CP-14	</td><td>	SANY	<td><button onclick="window.location.href='undercons.html'">Details</button></td></tr></table>
+				<li class="vehicles">	<table><tr><td>	1207 - Chattogram	</td><td>	Mixer Truck	</td><td>	C-M-11-1672	</td><td>	SANY	<td><button onclick="window.location.href='undercons.html'">Details</button></td></tr></table>
+				<li class="vehicles">	<table><tr><td>	1207 - Chattogram	</td><td>	Mixer Truck	</td><td>	C-M-11-1673	</td><td>	SANY	<td><button onclick="window.location.href='undercons.html'">Details</button></td></tr></table>
+				<li class="vehicles">	<table><tr><td>	1207 - Chattogram	</td><td>	Mixer Truck	</td><td>	C-M-11-1671	</td><td>	SANY	<td><button onclick="window.location.href='undercons.html'">Details</button></td></tr></table>
+				<li class="vehicles">	<table><tr><td>	1207 - Chattogram	</td><td>	Mixer Truck	</td><td>	C-M-13-0097	</td><td>	SANY	<td><button onclick="window.location.href='undercons.html'">Details</button></td></tr></table>
+				<li class="vehicles">	<table><tr><td>	1207 - Chattogram	</td><td>	Mixer Truck	</td><td>	C-M-13-0100	</td><td>	SANY	<td><button onclick="window.location.href='undercons.html'">Details</button></td></tr></table>
+				<li class="vehicles">	<table><tr><td>	1207 - Chattogram	</td><td>	Mixer Truck	</td><td>	C-M-13-0105	</td><td>	SANY	<td><button onclick="window.location.href='undercons.html'">Details</button></td></tr></table>
+				<li class="vehicles">	<table><tr><td>	1207 - Chattogram	</td><td>	Mixer Truck	</td><td>	C-M-13-0208	</td><td>	SANY	<td><button onclick="window.location.href='undercons.html'">Details</button></td></tr></table>
+				<li class="vehicles">	<table><tr><td>	1207 - Chattogram	</td><td>	Mixer Truck	</td><td>	C-M-13-0247	</td><td>	SANY	<td><button onclick="window.location.href='undercons.html'">Details</button></td></tr></table>
+				<li class="vehicles">	<table><tr><td>	1207 - Chattogram	</td><td>	Mixer Truck	</td><td>	C-M-13-0252	</td><td>	SANY	<td><button onclick="window.location.href='undercons.html'">Details</button></td></tr></table>
+				<li class="vehicles">	<table><tr><td>	1207 - Chattogram	</td><td>	Mixer Truck	</td><td>	C-M-13-0254	</td><td>	SANY	<td><button onclick="window.location.href='undercons.html'">Details</button></td></tr></table>
+				<li class="vehicles">	<table><tr><td>	1207 - Chattogram	</td><td>	Mixer Truck	</td><td>	C-M-13-0303	</td><td>	SANY	<td><button onclick="window.location.href='undercons.html'">Details</button></td></tr></table>
+				<li class="vehicles">	<table><tr><td>	1207 - Chattogram	</td><td>	Mixer Truck	</td><td>	C-M-13-0307	</td><td>	SANY	<td><button onclick="window.location.href='undercons.html'">Details</button></td></tr></table>
+				<li class="vehicles">	<table><tr><td>	1207 - Chattogram	</td><td>	Mixer Truck	</td><td>	C-M-13-0442	</td><td>	SANY	<td><button onclick="window.location.href='undercons.html'">Details</button></td></tr></table>
+				<li class="vehicles">	<table><tr><td>	1207 - Chattogram	</td><td>	Mixer Truck	</td><td>	C-M-13-0462	</td><td>	SANY	<td><button onclick="window.location.href='undercons.html'">Details</button></td></tr></table>
+				<li class="vehicles">	<table><tr><td>	1207 - Chattogram	</td><td>	Pick Up	</td><td>	C-M-12-0978	</td><td>	EICHER	<td><button onclick="window.location.href='undercons.html'">Details</button></td></tr></table>
+				<li class="vehicles">	<table><tr><td>	1207 - Chattogram	</td><td>	Pick Up	</td><td>	D-M-U 12-2082	</td><td>	EICHER	<td><button onclick="window.location.href='undercons.html'">Details</button></td></tr></table>
+				<li class="vehicles">	<table><tr><td>	1207 - Chattogram	</td><td>	Wheel Loader	</td><td>	WL	</td><td>	SANY	<td><button onclick="window.location.href='undercons.html'">Details</button></td></tr></table>
+				<li class="vehicles">	<table><tr><td>	1207 - Chattogram	</td><td>	Wheel Loader	</td><td>	WL	</td><td>	SANY	<td><button onclick="window.location.href='undercons.html'">Details</button></td></tr></table>
+					
+				
+						
+				
+				
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+		</ul>
+	</div>
+
+
+
+	<script src="./script.js"></script>
+</body>
+
+</html>
